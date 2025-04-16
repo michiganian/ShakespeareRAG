@@ -9,7 +9,7 @@ This function would need to be rewritten for other html sources.
 Gemma3:12b should run ok on a Mac with Apple silicon and 16GB RAM.  
 Choose an appropriate model for other hardware.  
   
-At the time of writing, the only python package with an older version requirement is chromadb==0.6.3.  
+At the time of writing, the only python package with an older version requirement is chromadb==0.6.3.
 Anything higher was returning a 500 internal server error from chromadb when creating a collection.  
 
 ## Prerequisites
@@ -30,7 +30,7 @@ docker run -d --name=chromadb -p 8000:8000 -v ~/Documents/rag/chroma_data:/data:
 
 ### Grab the Shakespeare html files and save in a local folder named 'shakespeare'
 Git clone or download and unzip
-[https://github.com/TheMITTech/shakespeare/]
+https://github.com/TheMITTech/shakespeare/
 
 ## How to run
 Edit the config vars if needed in either ingest.py or rag.py
