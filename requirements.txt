@@ -1,0 +1,8 @@
+bs4==0.0.2
+langchain-chroma==0.2.2
+langchain-community==0.3.21
+langchain-core==0.3.51
+langchain-text-splitters==0.3.8
+sentence-transformers==4.0.2
+chromadb==0.6.3
+ollama==0.4.7
